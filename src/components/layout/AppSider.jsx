@@ -8,9 +8,6 @@ const siderStyle = {
     height: '100vh',
 };
 
-const onChange = checked => {
-    console.log(`switch to ${checked}`);
-};
 
 export default function AppSider({ activeSection, setActiveSection }) {
     return (
@@ -23,6 +20,7 @@ export default function AppSider({ activeSection, setActiveSection }) {
                         key={key}
                         isActive={activeSection === key}
                         onClick={() => setActiveSection(key)}
+                        style={{ marginBottom: '1rem', }}
                     >
                         <img src={`/images/${key}.svg`} alt="" style={{ height: '20px', marginRight: 8 }} />
                         {label}

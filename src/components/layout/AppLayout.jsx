@@ -5,7 +5,7 @@ import AppContent from './AppContent';
 import { useState } from 'react';
 
 export default function AppLayout() {
-    const [activeSection, setActiveSection] = useState('upcoming')
+    const [activeSection, setActiveSection] = useState('today')
 
     return (
         <Layout>

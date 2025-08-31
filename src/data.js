@@ -31,3 +31,24 @@ export const sections = [
     component: HabitSection,
   },
 ];
+
+export const todays = [
+  {
+    key: '1',
+    title: 'Research something',
+    description: '',
+    isDone: false,
+  },
+  {
+    key: '2',
+    title: 'Make a video',
+    description: '',
+    isDone: false,
+  },
+  {
+    key: '3',
+    title: 'Read a book',
+    description: '',
+    isDone: true,
+  },
+]
