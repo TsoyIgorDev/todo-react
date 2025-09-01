@@ -52,3 +52,39 @@ export const todays = [
     isDone: true,
   },
 ]
+
+export const habits = [
+  {
+    key: '1',
+    habit: 'Clean room',
+    monday: false,
+    tuesday: false,
+    wednesday: false,
+    thursday: false,
+    friday: false,
+    saturday: false,
+    sunday: false,
+  },
+  {
+    key: '2',
+    habit: 'Reading',
+    monday: false,
+    tuesday: false,
+    wednesday: false,
+    thursday: false,
+    friday: false,
+    saturday: false,
+    sunday: false,
+  },
+  {
+    key: '3',
+    habit: 'Meditating',
+    monday: false,
+    tuesday: false,
+    wednesday: false,
+    thursday: false,
+    friday: false,
+    saturday: false,
+    sunday: false,
+  },
+]
